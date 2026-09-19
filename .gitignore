@@ -1,17 +1,42 @@
+# Python
 __pycache__/
 *.py[cod]
+*.egg-info/
 .venv/
+venv/
+env/
 .pytest_cache/
-.env
-.env.*
-!.env.example
+.mypy_cache/
+.ruff_cache/
+
+# Node
 node_modules/
 .next/
 dist/
 build/
-*.log
+coverage/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_ed25519
+id_rsa
+known_hosts
+
+# Backups
 backups/*.tar.zst
 backups/*.tar.gz
+backups/*.tar
+backups/[0-9]*/
+
+# OS / Editor
 .DS_Store
+Thumbs.db
 .vscode/
 .idea/
+*.swp

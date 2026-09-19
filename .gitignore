@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.env
+.env.*
+!.env.example
+node_modules/
+.next/
+dist/
+build/
+*.log
+backups/*.tar.zst
+backups/*.tar.gz
+.DS_Store
+.vscode/
+.idea/

@@ -15,6 +15,7 @@ REPOS = [
     {"name": "mCore Library", "path": "/srv/mcore/platform/mCore-Library"},
     {"name": "mCore 365",     "path": "/srv/mCore365"},
     {"name": "doGet Engine",  "path": "/srv/doGet"},
+    {"name": "mCore_dev_docs","path": "/srv/mCore_dev_docs"},
 ]
 
 
